@@ -1,6 +1,6 @@
 <div dir=rtl>
   
-# نمونەی mdbook
+# نمونەی [mdbook](https://rust-lang.github.io/mdBook/index.html)
 
 * سایدبارەکە لە مۆبایل دەستکاری نەکراوە
 * کاری دروست ئەوەیە کە چوارچێوەیەک دروستکرێ
