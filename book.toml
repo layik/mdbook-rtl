@@ -1,0 +1,10 @@
+[book]
+authors = ["لائق حەمە"]
+language = "ku"
+multilingual = false
+src = "src"
+title = "شازی کتێب"
+[output.html]
+additional-js = ["custom.js"]
+[build]
+build-dir = "docs"

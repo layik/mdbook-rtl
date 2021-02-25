@@ -1,0 +1,61 @@
+@import url(//fonts.googleapis.com/earlyaccess/notonaskharabic.css);
+@import url(//fonts.googleapis.com/earlyaccess/notokufiarabic.css);
+
+body, html {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Noto Naskh Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  direction: rtl;
+}
+
+main {
+  padding: 1em ;
+}
+
+.book.font-family-0 {
+  font-family: "Noto Naskh Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.book-summary, .book-header {
+  font-family: "Noto Kufi Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#menu-bar-hover-placeholder {
+  height: 0 !important;
+}
+
+.menu-bar {
+  /* background-color: red !important; */
+}
+
+.sidebar {
+  left: auto; right: 0;
+  transition: none !important;
+}
+
+.sidebar-hidden .sidebar {
+  right: -600px;
+}
+
+.sidebar-visible .page-wrapper {
+  margin-left: 0px !important; margin-right: 300px;
+  left: 0px; right: unset;
+}
+
+ul.theme-popup {
+  left: unset;
+}
+
+/* .theme-popup button.theme {
+  text-align: right;
+} */
+
+.previous {
+  float: right !important;
+}
+
+.next {
+  float: left !important;
+  right: unset !important;
+  left: var(--page-padding);
+}
