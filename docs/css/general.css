@@ -8,6 +8,10 @@ body, html {
   direction: rtl;
 }
 
+pre {
+  direction: ltr;
+}
+
 main {
   padding: 1em ;
 }
