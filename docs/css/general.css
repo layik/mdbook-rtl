@@ -1,5 +1,5 @@
-@import url(//fonts.googleapis.com/earlyaccess/notonaskharabic.css);
-@import url(//fonts.googleapis.com/earlyaccess/notokufiarabic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notonaskharabic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notokufiarabic.css);
 
 body, html {
   margin: 0;
@@ -16,25 +16,17 @@ main {
   padding: 1em ;
 }
 
-.book.font-family-0 {
-  font-family: "Noto Naskh Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
+.book.font-family-0,
 .book-summary, .book-header {
-  font-family: "Noto Kufi Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Noto Naskh Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #menu-bar-hover-placeholder {
   height: 0 !important;
 }
 
-.menu-bar {
-  /* background-color: red !important; */
-}
-
 .sidebar {
-  left: auto; right: 0;
-  transition: none !important;
+  left: unset; right: 0;
 }
 
 .sidebar-hidden .sidebar {
@@ -42,8 +34,9 @@ main {
 }
 
 .sidebar-visible .page-wrapper {
-  margin-left: 0px !important; margin-right: 300px;
-  left: 0px; right: unset;
+  margin-left: 0px !important;
+  margin-right: 300px;
+  transform: none !important;
 }
 
 ul.theme-popup {
@@ -62,4 +55,8 @@ ul.theme-popup {
   float: left !important;
   right: unset !important;
   left: var(--page-padding);
+}
+
+ol, .chapter, .chapter li {
+  list-style: arabic-indic !important;
 }
